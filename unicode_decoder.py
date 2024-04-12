@@ -4,7 +4,7 @@ def unicode_decoder(text):
         return decoded_text
     except UnicodeDecodeError:
         return "Error: Unable to decode Unicode text"
-      
+
 unicode_text = input("Enter the Unicode Text: ")
 decoded_text = unicode_decoder(unicode_text)
 print("Decoded text:", decoded_text)
