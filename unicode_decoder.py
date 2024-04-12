@@ -1,3 +1,13 @@
+"""
+################################################################################
+#                                                                              #
+# This code was created by veilwr4ith                                          #
+#                                                                              #
+# Unicode Decoder                                                              #
+#                                                                              #
+################################################################################
+"""
+
 def unicode_decoder(text):
     try:
         decoded_text = text.encode('utf-8').decode('unicode-escape')
