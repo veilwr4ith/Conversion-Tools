@@ -16,4 +16,5 @@ def html_entity_decoder(text):
 
 html_entity = input("Enter the HTML Entity: ")
 decoded_entity = html_entity_decoder(html_entity)
+print("-" * 30)
 print("Decoded Entity: ", decoded_entity)
