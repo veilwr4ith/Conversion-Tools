@@ -37,12 +37,15 @@ option = int(input("Choose if Base16, Base32, Base64:\n1. Base16\n2. Base32\n3. 
 
 if option == 1:
     encoded_string = input("Enter the Encoded String: ")
+    print("-" * 30)
     base16_decode(encoded_string)
 elif option == 2:
     encoded_string = input("Enter the Encoded String: ")
+    print("-" * 30)
     base32_decode(encoded_string)
 elif option == 3:
     encoded_string = input("Enter the Encoded String: ")
+    print("-" * 30)
     base64_decode(encoded_string)
 else:
     print("inavlid Option.")
