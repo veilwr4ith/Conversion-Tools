@@ -1,3 +1,13 @@
+"""
+################################################################################
+#                                                                              #
+# This code was created by veilwr4ith                                          #
+#                                                                              #
+# UNIX Datetime Decoder                                                        #
+#                                                                              #
+################################################################################
+"""
+
 import datetime
 
 def unix_time_decoder(timestamp):
