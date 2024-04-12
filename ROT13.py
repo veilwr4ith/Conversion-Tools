@@ -21,4 +21,5 @@ def rot13_decoder(text):
 
 encoded_text = input("Enter the ROT13 String: ")
 decoded_text = rot13_decoder(encoded_text)
+print("-" * 30)
 print(f"Decoded Text: {decoded_text}")
