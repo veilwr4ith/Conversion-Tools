@@ -1,3 +1,13 @@
+"""
+################################################################################
+#                                                                              #
+# This code was created by veilwr4ith                                          #
+#                                                                              #
+# Quoted-Printable Decoder                                                     #
+#                                                                              #
+################################################################################
+"""
+
 import quopri
 
 def quoted_printable_decoder(text):
