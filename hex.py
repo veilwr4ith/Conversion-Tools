@@ -22,6 +22,7 @@ hex_input = input("Enter the hexadecimal string: ")
 
 plaintext = hex_to_plaintext(hex_input)
 if plaintext:
+    print("-" * 30)
     print("Plaintext:", plaintext)
 else:
     print("Failed to decode the hex string.")
