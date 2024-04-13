@@ -15,12 +15,10 @@ def vigenere_decode(ciphertext, keyword):
     for char in ciphertext:
         if char.isalpha():
             shift = ord(keyword[keyword_index % len(keyword)]) - ord('A')
-            
             if char.islower():
                 decrypted_char = chr((ord(char) - ord('a') - shift) % 26 + ord('a'))
             else:
                 decrypted_char = chr((ord(char) - ord('A') - shift) % 26 + ord('A'))
-            
             plaintext += decrypted_char
             keyword_index += 1
         else:
