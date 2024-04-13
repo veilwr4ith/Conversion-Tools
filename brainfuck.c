@@ -68,6 +68,7 @@ void brainfuck_interpreter(char *code) {
                 break;
         }
     }
+    printf("------------------------------");
     printf("\nDecoded Brainfuck Code: %s\n", output);
 }
 
