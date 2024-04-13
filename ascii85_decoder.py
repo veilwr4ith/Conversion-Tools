@@ -1,3 +1,13 @@
+"""
+################################################################################
+#                                                                              #
+# This code was created by veilwr4ith                                          #
+#                                                                              #
+# ASCII85 Decoder                                                              #
+#                                                                              #
+################################################################################
+"""
+
 import base64
 
 def decode_ascii85(encoded_data):
@@ -9,4 +19,5 @@ def decode_ascii85(encoded_data):
       
 encoded_data = input("Enter the encoded data: ")
 decoded_data = decode_ascii85(encoded_data)
+print("-" * 30)
 print(f"Decoded String: {decoded_data}")
