@@ -23,4 +23,5 @@ def caesar_decoder(text, shift):
 text = input("Enter the encoded string: ")
 shift = int(input("Enter the shift value: "))
 decrypted_text = caesar_decoder(text, shift)
+print("-" * 30)
 print(f"Decrypted text: {decrypted_text}")
