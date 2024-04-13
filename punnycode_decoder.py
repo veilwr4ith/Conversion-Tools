@@ -20,4 +20,5 @@ def punnycode_decoder(text):
 
 punnycode_text = input("Enter the Punnycode Text: ")
 decoded_text = punnycode_decoder(punnycode_text)
+print("-" * 30)
 print(f"Decoded Punnycode Text: {decoded_text}")
