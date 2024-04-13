@@ -1,4 +1,4 @@
-# Decoder Toolki
+# Decoder Toolkit
 
 Welcome to Decoder-Toolkit, your comprehensive collection of decoders used in Capture The Flag (CTF) competitions. This repository houses a variety of decoding tools and scripts that can assist you in solving various challenges encountered in CTFs.
 
