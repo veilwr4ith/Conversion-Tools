@@ -1,13 +1,3 @@
-"""
-################################################################################
-#                                                                              #
-# This code was created by veilwr4ith                                          #
-#                                                                              #
-# ROT13 Decoder                                                                #
-#                                                                              #
-################################################################################
-"""
-
 def rot13_decoder(text):
     decoded_text = ""
     for char in text:
@@ -21,5 +11,5 @@ def rot13_decoder(text):
 
 encoded_text = input("Enter the ROT13 String: ")
 decoded_text = rot13_decoder(encoded_text)
-print("-" * 30)
+print('-' * 30)
 print(f"Decoded Text: {decoded_text}")
