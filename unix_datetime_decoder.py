@@ -20,4 +20,5 @@ def unix_time_decoder(timestamp):
 
 timestamp = input("Enter Unix timestamp: ")
 decoded_time = unix_time_decoder(timestamp)
+print("-" * 30)
 print("Decoded time:", decoded_time)
