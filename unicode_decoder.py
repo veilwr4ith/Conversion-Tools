@@ -17,4 +17,5 @@ def unicode_decoder(text):
 
 unicode_text = input("Enter the Unicode Text: ")
 decoded_text = unicode_decoder(unicode_text)
+print("-" * 30)
 print("Decoded text:", decoded_text)
