@@ -1,3 +1,13 @@
+"""
+################################################################################
+#                                                                              #
+# This code was created by veilwr4ith                                          #
+#                                                                              #
+# XOR Decoder                                                                  #
+#                                                                              #
+################################################################################
+"""
+
 def xor_decode(ciphertext, key):
     plaintext = ""
     for char in ciphertext:
