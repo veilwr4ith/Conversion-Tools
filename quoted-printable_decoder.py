@@ -19,4 +19,5 @@ def quoted_printable_decoder(text):
 
 quoted_printable_text = input("Enter the QPT: ")
 decoded_text = quoted_printable_decoder(quoted_printable_text)
+print("-" * 30)
 print(f"Decoded Text: {decoded_text}")
