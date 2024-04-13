@@ -34,4 +34,5 @@ def morse_decoder(text):
 morse_code = input("Enter the Morse Code: ")
 
 decoded_message = morse_decoder(morse_code)
+print("-" * 30)
 print("Decoded Message:", decoded_message)
